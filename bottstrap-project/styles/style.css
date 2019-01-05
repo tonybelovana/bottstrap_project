@@ -1,0 +1,202 @@
+ul li {
+    list-style-type: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.about-block, .portfolio, .team-block, .blog-block, footer {
+    padding: 10% 1%;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+/*WEB-BLOCK*/
+/*WEB-BLOCK*/
+/*WEB-BLOCK*/
+
+.web-block {
+    background: url(../img/fon.png);
+    padding: 10%;
+}
+
+.web-block-buttons {
+    padding-top: 15%;
+}
+
+
+/*SEVICES*/
+/*SEVICES*/
+/*SEVICES*/
+
+
+.services-block {
+    background-color: #e4fdf9;
+    padding: 10%;
+}
+
+.services-item-card:hover .btn-outline-dark {
+    color: white;
+    border: 1px solid white;
+    transition: all .5s ease-out;
+    background-color: #00897b; 
+} 
+
+.services-item-card .fas {
+    font-size: 50px;
+}
+
+.services-item-card:hover {
+    transition: all .5s ease-out;
+    background-color: #00897b;
+    color: white;
+}
+
+.services-item-card:hover {
+    color: white;
+}
+
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+
+.portfolio img {
+    height: 250px
+}
+
+.portfolio-card-item {
+    overflow: hidden;
+}
+
+.portfolio-card-item span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    background: rgba(0,0,0,.5);
+    color: white;
+    opacity: 0;
+    transition: all .5s;
+    padding-top: 30%;
+    cursor: pointer;
+    top: -100%;
+}
+
+.portfolio-card-item:hover span {
+    opacity: 1;
+    top: 0;
+}
+
+
+
+/*PRICE-BLOCK*/
+/*PRICE-BLOCK*/
+/*PRICE-BLOCK*/
+
+
+.price-block {
+    background-color: #f0f1f1;
+    padding: 10% 0;
+}
+
+.price-card:hover .btn {
+    color: white;
+    background-color: green;
+    transition: all .5s ease-out;
+}
+
+.background-item-card {
+    background: #3949ab;
+    color: white;
+}
+
+.dollar {
+    font-size: 25px;
+}
+
+.background-item-card span {
+    font-size: 50px;
+}
+
+
+
+.price-card .card-body p {
+    border-bottom: 1px solid gray;
+    padding: 5% 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.price-card:hover {
+    transition: all .5s;
+    box-shadow: 0 0 60px;
+}
+
+
+/*TEAM*/
+/*TEAM*/
+/*TEAM*/
+
+.owl-carousel div img {
+    height: 250px;
+}
+
+.blog-block {
+    background-color: #e4fdf9;
+}
+
+/*BLOG*/
+/*BLOG*/
+/*BLOG*/
+
+.media-body {
+    padding-top: 8%
+}
+
+.media-body h5:hover {
+    color: green;
+}
+
+.blog-wrapper img {
+    width: 48%;
+}
+
+
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+
+
+
+footer {
+    background: url('../img/footer-img.png');
+}
+
+footer i {
+    font-size: 50px;
+    padding: 10%;
+    border-radius: 50%;
+    border: 1px solid #3949ab;
+    background: #3949ab
+}
+
+
+@media screen and (max-width: 768px){
+    
+    header li a {
+        font-size: 25px
+    }
+    
+}
+
+/*
+@media screen and (max-width: 500px) {
+    .portfolio button {
+        display: flex;
+        flex-direction: column;
+    }
+}*/
