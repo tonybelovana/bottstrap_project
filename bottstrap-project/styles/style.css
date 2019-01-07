@@ -109,8 +109,8 @@ textarea {
 }
 
 .background-item-card {
-    background: #3949ab;
-    color: white;
+    background:linear-gradient(145deg,blue 25%,white 0%);
+    color: black;
 }
 
 .dollar {
